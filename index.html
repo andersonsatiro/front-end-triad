@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--
+  Estudar novos atributos para o elemento meta
+  <meta name="description" content="-">
+  <meta name="keyworks" content="-">
+  -->
+  <title>Front-end Triad</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body class="flex flex-col gap-20 bg-white">
+
+
+  <header class="flex items-center justify-between px-8 py-6 border-b-solid border-b-[1px] border-b-slate-100">
+    <h1 class="text-base text-black font-bold ">Front-end Triad: encontre tags, estilizações</h1>
+    <div class="p-1 text-xs text-slate-600 font-normal bg-slate-100 rounded-md">
+      <button class="px-3 py-1 bg-white rounded-md">HTML</button>
+      <button class="px-3 py-1 hover:bg-white rounded-md">CSS</button>
+      <button class="px-3 py-1 hover:bg-white rounded-md">JS</button>
+    </div>
+  </header>
+
+  <main class="flex flex-col gap-12 items-center justify-center w-full">
+    <h1
+      class="main-title">
+        Aprimore a sua aplicação </br>front-end<span class="text-purple-600">.</span>
+    </h1>
+
+    <section id="information-grid"></section>
+
+    <table id="table">
+      <tr>
+        <th>Descrição</th>
+        <th>Linguagem</th>
+        <th>Tags</th>
+        <th>Visualizar</th>
+      </tr>
+    </table>
+  </main>
+
+  <footer>
+    <span></span>
+    <div>
+      <a
+        href="https://www.linkedin.com/in/anderson-paiva-97a607235/"
+        class="network-bg"
+        target="_blank"
+      >
+          <i class="ph-fill ph-linkedin-logo"></i>  
+      </a>
+      <a
+        href="https://github.com/andersonsatiro"
+        class="network-bg"
+        target="_blank"
+      > 
+        <i class="ph-fill ph-github-logo"></i>
+      </a>
+      <a
+        href="https://drive.google.com/file/d/1oXMqrbM8gQKLgEeE91L-Sxb6BS8Brixo/view?usp=sharing"
+        class="network-bg"
+        target="_blank"
+      >
+        <i class="ph-fill ph-briefcase"></i>
+      </a>
+    </div>
+    <p>© 2024 <strong>Front-end-triad</strong> desenvolvido por <em>Anderson Paiva</em></p>
+  </footer>
+</body>
+  <script src="script.js"></script>
+</html>
